@@ -1,4 +1,4 @@
-# SkullLocker-Anlysis
+# SkullLocker-Analysis
 A small Analysis of SkullLocker Code  
 
 
