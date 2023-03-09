@@ -180,7 +180,7 @@ private static void registryStartup()
 
 ##  Encryption :
 
- ![[works.png]]
+![Schema](works.png)
 
 - XML string representation of an RSA public key.
 
