@@ -10,13 +10,17 @@ A small Analysis of SkullLocker Code
 - SkullLocker : 
 
 MD5 : 62e53bc5aa5f2a70a54e328bff51505f
+
 SHA1 : e7deceee97a09d539d81eb91f988ece5e2a2ff51
+
 SHA256 : bb5ca9d8de51734dbd14dc081c7c892d819cd14fafd7ccd62849d70f9e679369
 
 - Chaos :
 
 MD5 : 98274f8ae42ac490c3441b3b14459356
+
 SHA1 : 59a80c57499b6eb5de31fcbf582eeeb1c3b20e9d
+
 SHA256 : d09b875ead838ec256b863b5e8e252d5bca9172b5479b00699ff31b4d745c92b
 
 *Behaviour :*
