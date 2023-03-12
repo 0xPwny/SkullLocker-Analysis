@@ -4,7 +4,7 @@ rule SkullLocker_Ransomware {
       author = "The Hacker News B'Darija"
       date = "2023-03-11"
    strings:
-      $s1 = "C:\\Users\\" fullword wide
+      $s1 = "runas" fullword wide
       $s2 = "okok.exe" fullword wide
       $s3 = "skull.exe" fullword wide
       $s4 = "appMutexRun2" fullword ascii
