@@ -25,6 +25,7 @@ rule SkullLocker_Ransomware {
       $s19 = "bcdedit /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no" fullword wide
       $s20 = "<RSAParameters xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">" fullword wide
    condition:
-      filesize < 600KB and
-      8 of ($s*)
+      uint16(0) == 0x5A4D and                              
+      filesize < 600KB and                                 
+      8 of ($s*)                                         
 }
